@@ -30,6 +30,16 @@ The program has to go and find a row of memory that is empty and has enough spac
 
 So if the array has to get larger because you add an item, it has to copy the array into a new array, add the new item and then find a row of memory that is empty and has enough space for the new array.
 
-_Access_ an Array = O(1)
-_Search_ an Array = O(n)
-_Search sorted_ array = O(log(n))
+_Access_ O(1)
+
+_Search_ O(n)
+
+_Search (sorted array)_ O(log(n))
+
+_Insert_ O(n) Insertion would require shifting all the subsequent elements to the right by one and that takes O(n)
+
+_Insert (at the end)_ O(1) Special case of insertion where no other element needs to be shifted
+
+_Remove_ O(n) Removal would require shifting all the subsequent elements to the left by one and that takes O(n)
+
+_Remove (at the end)_ O(1) Special case of removal where no other element needs to be shifted
