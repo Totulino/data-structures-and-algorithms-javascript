@@ -1,7 +1,7 @@
 ## Arrays
 
 Store multiple elements of the same type with one single variable name
-Easy access as lons as you have the index
+Easy access as long as you have the index
 
 Arrays are a collection of items. They are stored in contiguous memory locations. Meaning, they are stored one after the other in memory.
 
